@@ -1,0 +1,28 @@
+.hero {
+    background-color: #fff3eb;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+    align-content: center;
+    
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+}
+
+.subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 500;
+    color: black;
+}

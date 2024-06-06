@@ -1,0 +1,53 @@
+.navbar {
+    width: 100%;
+    background-color: #fff3eb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.logo {
+    font-family: "Mrs Sheppards", cursive;
+    font-weight:100;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.buttonList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.link:hover {
+    color: #495a66;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    border-color: transparent;
+    height: 2rem;
+    width: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 0.9rem;
+}

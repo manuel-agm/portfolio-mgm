@@ -1,0 +1,54 @@
+.description {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    margin-top: 4rem;
+    margin-left: 36rem;
+    margin-right: 36rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+    
+}
+
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.anchor {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-color: black;
+}
+
+.anchor:hover {
+    color: #495a66;
+}
+
+.linkIcons {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    gap:1.5rem;
+}
+
+.linkIcon {
+    height: 3rem;
+    transition: transform 175ms ease-in-out;
+}
+
+.linkIcon:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,67 @@
+.about {
+    border-top: 1px solid #bfced8;
+    padding-top: 4rem;
+    
+}
+
+.aboutBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: start;
+    align-content: center;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    gap: 4rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:start;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    border-top: 2px solid black;
+    padding-top: 1rem;
+    
+}
+
+.profilePicture {
+    height: 16rem;
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 6px 6px;
+}
+
+.headerTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.6rem;
+    align-self: start;
+    font-weight: 600;
+    color: black;
+}
+
+.contentText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:start;
+    align-items: center;
+    align-content: center;
+    
+    margin-left: 8rem;
+    
+    gap: 2rem;
+}
