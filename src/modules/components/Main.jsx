@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import Hero from './Hero'
 import About from './About'
 import Description from './Description'
+import Work from './Work'
 import '../styles/main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero />
     <Description />
     <About />
+    <Work />
   </React.StrictMode>,
 )

@@ -1,0 +1,64 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    gap:4rem;
+}
+
+.project {
+    width: 35rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-decoration: none;
+    align-content: center;
+    gap: 0.8rem;
+
+}
+
+.arrow {
+    width: 1.4rem;
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.project:hover .projectImage {
+    transform: rotate(2deg);
+    transition: transform 0.3s ease; 
+}
+
+.project:hover .arrow {
+    transform: translateX(0.8rem);
+    transition: transform 0.3s ease; 
+}   
+
+.projectImage {
+    width: 36rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.projectDescription {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    align-self: start;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.projectTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    align-self: start;
+    font-weight: 500;
+    color: black;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}

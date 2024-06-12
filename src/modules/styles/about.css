@@ -1,6 +1,7 @@
 .about {
     border-top: 1px solid #bfced8;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     
 }
 
@@ -8,12 +9,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:center;
+    justify-content:space-between;
     align-items: start;
     align-content: center;
     margin-left: 28rem;
     margin-right: 28rem;
     gap: 4rem;
+    
 }
 
 .header {
@@ -26,11 +28,12 @@
     gap: 2rem;
     border-top: 2px solid black;
     padding-top: 1rem;
+    width: 14rem;
     
 }
 
 .profilePicture {
-    height: 16rem;
+    width: 14rem;
     border-radius: 40px;
     border: 1px solid black;
     padding: 6px 6px;
@@ -42,6 +45,7 @@
     align-self: start;
     font-weight: 600;
     color: black;
+    
 }
 
 .contentText {
@@ -60,8 +64,6 @@
     justify-content:start;
     align-items: center;
     align-content: center;
-    
     margin-left: 8rem;
-    
     gap: 2rem;
 }
