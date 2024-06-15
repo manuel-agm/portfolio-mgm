@@ -1,7 +1,7 @@
 .about {
     border-top: 1px solid #bfced8;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     
 }
 
@@ -29,6 +29,9 @@
     border-top: 2px solid black;
     padding-top: 1rem;
     width: 14rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7rem;
     
 }
 
@@ -45,12 +48,11 @@
     align-self: start;
     font-weight: 600;
     color: black;
-    
 }
 
 .contentText {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: black;
     text-align: justify;
@@ -66,4 +68,13 @@
     align-content: center;
     margin-left: 8rem;
     gap: 2rem;
+}
+
+.boldText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    text-align: justify;
+    line-height: 1.8rem;
 }

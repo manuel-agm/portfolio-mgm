@@ -22,11 +22,13 @@ const Anchor = (props) => {
     )
 }
 
+
+
 const Description = () => {
   return (
     <div className='description'>
         <div className='paragraph'>Graduate software engineer with over three years of experience. Based in Málaga (Spain), currently working at <Anchor text="Dedalus" /></div>
-        <div className='paragraph'>Focused on delivering robust full-stack solutions for web and mobile platforms, alongside designing and executing end-to-end data processes</div>
+        <div className='paragraph'>My focus is on delivering robust full-stack solutions for both desktop and mobile platforms, as well as designing and developing end-to-end data processes.</div>
         <LinkIcons />
     </div>
   )

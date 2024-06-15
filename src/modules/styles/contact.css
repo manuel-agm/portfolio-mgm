@@ -1,0 +1,84 @@
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: start;
+    align-content: center;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    gap: 2rem;
+}
+
+.contactTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+    
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:start;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.contactIcon {
+    width: 4rem
+}
+
+.contactInfoText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: start;
+    align-content: center;
+}
+
+.mail {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+    text-align: justify;
+}
+
+.mailAddress {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+}
+
+.contactButton {
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    border-color: transparent;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s ease-out, filter 0.1s ease-out;
+}
+
+.contactButton:hover {
+    transform: translateY(-2px);
+    transition: transform 0.1s ease-out, filter 0.1s ease-out;
+}
+
+.arrowContact {
+    width: 1.4rem;
+    color: white;
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
