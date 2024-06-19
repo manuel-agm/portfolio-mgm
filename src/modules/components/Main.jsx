@@ -13,12 +13,12 @@ import '../styles/main.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar />
-     <Hero />
+    <Hero />
     <Description />
-    {/*<About />
+    <About />
     <Work />
     <Experience />
-    <Contact />
+    {/*<Contact />
     <Footer /> */}
   </React.StrictMode>,
 )

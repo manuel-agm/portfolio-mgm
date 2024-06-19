@@ -2,7 +2,6 @@
     border-top: 1px solid #bfced8;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    
 }
 
 .aboutBox {
@@ -14,7 +13,8 @@
     align-content: center;
     margin-left: 28rem;
     margin-right: 28rem;
-    gap: 4rem;
+    gap: 8rem;
+
     
 }
 
@@ -32,7 +32,6 @@
     position: -webkit-sticky;
     position: sticky;
     top: 7rem;
-    
 }
 
 .profilePicture {
@@ -66,7 +65,6 @@
     justify-content:start;
     align-items: center;
     align-content: center;
-    margin-left: 8rem;
     gap: 2rem;
 }
 
@@ -77,4 +75,106 @@
     color: black;
     text-align: justify;
     line-height: 1.8rem;
+}
+
+@media (max-width: 1746.98px) {
+    .aboutBox {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
+    .header {
+        width: 12rem;
+        position: sticky;
+        top: 7rem;
+    }
+
+    .profilePicture {
+        width: 12rem
+    }
+}
+
+@media (max-width: 1439.98px) {
+    .aboutBox {
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .about {
+        padding-top: 5rem;
+    }
+
+    .aboutBox  {
+        flex-direction: column;
+        justify-content:center;
+        gap: 4rem;
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+
+    .header {
+        justify-content:center;
+        
+        top: 0rem;
+        align-self: center;
+        position: static;
+    }
+
+    .headerTitle {
+        align-self: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .profilePicture {
+        width: 11rem;
+    }
+    .contentText {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .boldText {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .aboutBox  {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .headerTitle {
+        font-size: 2.4rem;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    .profilePicture {
+        width: 10rem;
+    }
+    .contentText {
+        line-height: 1.4rem;
+    
+        font-size: 0.9rem;
+    }
+
+    .boldText {
+        line-height: 1.4rem;
+        font-size: 0.9rem;
+    }
+
+    .aboutBox  {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        gap: 3rem;
+    }
+
+    .about {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
 }

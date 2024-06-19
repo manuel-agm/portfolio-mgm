@@ -29,8 +29,8 @@ const NavBar = () => {
   return (
     <div className='navbar'>
         <Link to="hero" smooth={true} duration={500} className='logo' >M</Link>
-        {size.width > 768 && <ButtonList/>}
-        {size.width <= 768 && <Dropdown/>}
+        {size.width >= 768 && <ButtonList/>}
+        {size.width < 768 && <Dropdown/>}
     </div>
   )
 }

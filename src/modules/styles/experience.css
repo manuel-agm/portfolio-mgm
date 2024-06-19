@@ -1,3 +1,17 @@
+.experienceBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: start;
+    align-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    gap: 8rem;
+    
+
+}
+
 .experienceContent {
     display: flex;
     flex-direction: column;
@@ -6,7 +20,10 @@
     align-items: start;
     align-content: center;
     gap:3rem;
+    
 }
+
+
 
 .experienceItem {
     display: flex;
@@ -50,3 +67,16 @@
     text-align: justify;
     line-height: 2rem;
 }
+
+@media (max-width: 1199.98px) {
+    .experienceBox {
+        flex-direction: column;
+        justify-content:center;
+        gap: 4rem;
+        margin-left: 8rem;
+        margin-right: 8rem;
+        align-items: center;
+    }
+}
+
+    

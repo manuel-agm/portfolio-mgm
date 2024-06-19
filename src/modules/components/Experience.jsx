@@ -22,7 +22,7 @@ const ExperienceItem = (props) => {
 const Experience = () => {
   return (
     <div className='about' id="experience">
-       <div className='aboutBox'>
+       <div className='experienceBox'>
         <div className='header'>
             <span className='headerTitle'>Experience</span>
         </div>

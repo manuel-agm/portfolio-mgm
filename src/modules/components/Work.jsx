@@ -9,7 +9,7 @@ const Project = (props) => {
         <a className='project' href={props.href} target="_blank">
             <img className='projectImage' src={props.image} alt="Project"></img>
             <div className='projectTitle'>{props.title}
-                <img className='arrow' src={arrow} ></img>
+                <img className='arrow' src={arrow} alt="Arrow" ></img>
             </div>
             <div className='projectDescription'>{props.description}</div>
             
@@ -19,10 +19,10 @@ const Project = (props) => {
 
 const Work = () => {
   return (
-    <div className='about' id="work">
-      <div className='aboutBox'>
-        <div className='header'>
-            <span className='headerTitle'>Work</span>
+    <div className='work' id="work">
+      <div className='workBox'>
+        <div className='headerWork'>
+            <span className='headerWorkTitle'>Work</span>
         </div>
         <div className='projects'>
             <Project image={cc} title="Command Center" description="Real-time data orchestration for efficient, personalized patient care management" href="https://www.dedalus.com/global/en/our-offer/products/dedalus-command-center/" />

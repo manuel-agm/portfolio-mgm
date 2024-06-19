@@ -6,8 +6,6 @@
     align-content: center;
     text-align: justify;
     margin-top: 4rem;
-    margin-left: 36rem;
-    margin-right: 36rem;
     margin-bottom: 4rem;
     gap: 2rem;
     
@@ -18,7 +16,7 @@
     color: black;
     font-weight: 500;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 2.5rem;
     max-width: 48rem;
     
@@ -55,14 +53,15 @@
     transform: scale(1.3);
 }
 
-@media (max-width: 1920px) {
-    .description {
-        margin-left: 0rem;
-        margin-right: 0rem;
+@media (max-width: 1199.98px) {
+    .paragraph {
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 991.98px) {
     .description {
         margin-left: 8rem;
         margin-right: 8rem;
@@ -70,50 +69,36 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
     .paragraph {
         font-size: 1.4rem;
-        line-height: 2rem;
     }
 
     .description {
-        margin-left: 3.5rem;
-        margin-right: 3.5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
         text-align:center
     }
 
     .linkIcon {
         height: 2.5rem;
     }
-    
-    
 }
 
-@media (max-width: 425px) {
+@media (max-width: 575.98px) {
     .paragraph {
-        font-size: 1.2rem;
-        line-height: 1.7rem;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
     }
 
     .description {
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 2.5em;
+        margin-right: 2.5rem;
         text-align:center;
         margin-top: 2.5rem;
     }
 
     .linkIcon {
         height: 2rem;
-    }
-}
-
-@media (max-width: 375px) {
-    .paragraph {
-        font-size: 1.1rem;
-    }
-
-    .description {
-        margin-left: 2rem;
-        margin-right: 2rem;
     }
 }
