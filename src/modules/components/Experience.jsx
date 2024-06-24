@@ -23,8 +23,8 @@ const Experience = () => {
   return (
     <div className='about' id="experience">
        <div className='experienceBox'>
-        <div className='header'>
-            <span className='headerTitle'>Experience</span>
+        <div className='headerExperience'>
+            <span className='headerTitleExperience'>Experience</span>
         </div>
         <div className='experienceContent'>
             <ExperienceItem image={dedalus} title="Dedalus" subtitle="Professional Application Delivery" years="July 2022 to Date" />

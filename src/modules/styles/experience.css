@@ -5,11 +5,34 @@
     justify-content:space-between;
     align-items: start;
     align-content: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
     gap: 8rem;
+    max-width: 60rem;
+    width: 100%;
     
+}
 
+.headerExperience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:start;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    border-top: 2px solid black;
+    padding-top: 1rem;
+    width: 14rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7rem;
+}
+
+.headerTitleExperience {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    align-self: start;
+    font-weight: 600;
+    color: black;
 }
 
 .experienceContent {
@@ -22,8 +45,6 @@
     gap:3rem;
     
 }
-
-
 
 .experienceItem {
     display: flex;
@@ -44,7 +65,7 @@
 
 .experienceTitle {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 600;
     color: black;
     text-align: justify;
@@ -52,7 +73,7 @@
 
 .experienceSubtitle {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
+    font-size: 18px;
     font-weight: 500;
     color: black;
     text-align: justify;
@@ -61,22 +82,120 @@
 
 .experienceYears {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     color: black;
     text-align: justify;
     line-height: 2rem;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width:1199.98px) {
     .experienceBox {
-        flex-direction: column;
-        justify-content:center;
-        gap: 4rem;
         margin-left: 8rem;
         margin-right: 8rem;
-        align-items: center;
+    }
+
+    .headerExperience  {
+        width:12rem;
+    }
+
+    .headerTitleExperience {
+        font-size: 35px;
+    }
+
+    .experienceItem {
+        width: 26rem;
     }
 }
 
-    
+@media (max-width:991.98px) {
+    .experienceBox {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        gap: 4rem;
+    }
+
+    .experienceItem {
+        width: 21rem;
+    }
+
+    .experienceIcon {
+        width: 3.5rem;
+    }
+
+    .experienceTitle {
+        font-size: 18px;
+        text-align: start;
+        line-height: 1.6rem;
+    }
+
+    .experienceSubtitle {
+        font-size: 16px;
+        text-align: start;
+        line-height: 1.4rem;
+    }
+
+    .experienceYears {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .headerExperience {
+        width:10rem;
+    }
+
+    .headerTitleExperience {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .headerTitleExperience {
+        font-size: 28px;
+    }
+    .experienceItem {
+        width: 14rem;
+        gap: 1.4rem;
+    }
+
+    .experienceSubtitle {
+        font-size: 14px;
+        
+    }
+
+    .experienceTitle {
+        font-size: 16px;
+        
+    }
+
+}
+
+@media (max-width:575.98px) {
+    .experienceBox {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin-left: 2rem;
+        margin-right:2rem;
+    }
+
+    .experienceItem {
+        width: 17rem;
+        gap: 1.4rem;
+    }
+
+    .experienceSubtitle {
+        font-size: 14px;
+        
+    }
+
+    .experienceTitle {
+        font-size: 16px;
+        
+    }
+
+    .headerExperience {
+        justify-content: center;
+        position: static
+    }
+}

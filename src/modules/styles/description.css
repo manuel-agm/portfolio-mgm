@@ -16,10 +16,9 @@
     color: black;
     font-weight: 500;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 28px;
     line-height: 2.5rem;
     max-width: 48rem;
-    
 }
 
 .anchor {
@@ -45,7 +44,7 @@
 }
 
 .linkIcon {
-    height: 3rem;
+    height: 45px;
     transition: transform 175ms ease-in-out;
 }
 
@@ -55,50 +54,40 @@
 
 @media (max-width: 1199.98px) {
     .paragraph {
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 24px;
+        line-height: 2.2rem;
     }
 }
-
 
 @media (max-width: 991.98px) {
-    .description {
-        margin-left: 8rem;
-        margin-right: 8rem;
-
-    }
-}
-
-@media (max-width: 767.98px) {
     .paragraph {
-        font-size: 1.4rem;
+        font-size: 21px;
+        line-height: 2rem;
     }
 
     .description {
         margin-left: 5rem;
         margin-right: 5rem;
-        text-align:center
     }
 
-    .linkIcon {
-        height: 2.5rem;
-    }
 }
 
 @media (max-width: 575.98px) {
     .paragraph {
-        font-size: 1.1rem;
-        line-height: 1.6rem;
+        font-size: 18px;
+        line-height: 1.8rem;
+        text-align: center;
     }
 
     .description {
-        margin-left: 2.5em;
-        margin-right: 2.5rem;
-        text-align:center;
-        margin-top: 2.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .linkIcon {
-        height: 2rem;
+        height: 32px;
+        transition: transform 175ms ease-in-out;
     }
 }

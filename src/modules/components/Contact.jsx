@@ -1,7 +1,7 @@
 import React from 'react'
 import mail from '../../assets/mail.png'
 import '../styles/contact.css'
-import arrow from '../../assets/arrowRight.svg'
+
 
 const Mail = () => {
     return (
@@ -17,15 +17,17 @@ const Mail = () => {
 
 const Contact = () => {
   return (
-    <div className='about' id="contact">
-        <div className='contactBox'>
+    <div className='contact' id="contact">
+        <div className='contactBoxRow'>
             <div className='header'>
                 <span className='headerTitle'>Contact</span>
             </div>
-            <div className='contactTitle'>Let's get in touch!</div>
-            <Mail />
-            <button className='contactButton'>Send mail
-            </button>
+            <div className='contactBox'>
+                <div className='contactTitle'>Let's get in touch!</div>
+                <Mail />
+                <button className='contactButton'>Send mail
+                </button>
+            </div>
       </div>
     </div>
   )

@@ -1,18 +1,37 @@
+.contact {
+    border-top: 1px solid #bfced8;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
 .contactBox {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content:space-between;
     align-items: start;
-    align-content: center;
-    margin-left: 28rem;
-    margin-right: 28rem;
+    align-content: start;
     gap: 2rem;
+}
+
+.contactBoxRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: start;
+    align-content: center;
+    gap: 8rem;
+    max-width: 60rem;
+    width: 100%;
+    
 }
 
 .contactTitle {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.7rem;
+    font-size: 28px;
     font-weight: 500;
     color: black;
     text-align: justify;
@@ -44,18 +63,20 @@
 
 .mail {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.4rem;
+    font-size: 21px;
     font-weight: 600;
     color: black;
     text-align: justify;
+    line-height: 1.5rem;
 }
 
 .mailAddress {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 500;
     color: black;
     text-align: justify;
+    line-height: 1.5rem;
 }
 
 .contactButton {
@@ -63,10 +84,10 @@
     background-color: black;
     border-radius: 12px;
     border-color: transparent;
-    height: 3rem;
+    height: 2.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight:500;
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
     cursor: pointer;
     transition: transform 0.1s ease-out, filter 0.1s ease-out;
@@ -81,4 +102,82 @@
     width: 1.4rem;
     color: white;
     transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+@media (max-width:1199.98px) {
+    .contactBoxRow {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+
+
+}
+
+@media (max-width:991.98px) {
+    .contactBoxRow {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .contactButton {
+        font-size: 16px;
+        height: 2.5rem;
+    }
+
+    .mailAddress {
+        font-size: 18px;
+    }
+
+    .mail {
+        font-size: 20px;
+    }
+
+    .contactTitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contactBoxRow {
+        gap: 2rem;
+    }
+    .contactButton {
+        font-size: 14px;
+        height: 2.5rem;
+    }
+
+    .mailAddress {
+        font-size: 14px;
+    }
+
+    .mail {
+        font-size: 18px;
+    }
+
+    .contactTitle {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact  {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .contactBoxRow {
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contactBox {
+        align-items: center;
+    }
+
+    
+
+    .contactIcon {
+        width: 3rem;
+    }
 }

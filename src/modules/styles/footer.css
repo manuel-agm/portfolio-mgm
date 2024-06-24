@@ -12,7 +12,7 @@
 .copyright {
     font-family: "Montserrat", sans-serif;
     font-weight:600;
-    font-size: 1.2rem;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
@@ -28,4 +28,39 @@
 
 .linkIconFooter:hover {
     transform: scale(1.2);
+}
+
+@media (max-width:1199.90px) {
+    .copyright {
+        font-size: 16px;
+    }
+
+    .linkIconFooter {
+        height: 1.7rem;
+    }
+
+    .copyrightLogo {
+        height: 0.8rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .copyright {
+        font-size: 14px;
+    }
+
+    .linkIconFooter {
+        height: 1.5rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        height: 7rem;
+    }
+
+    .copyrightLogo {
+        height: 0.6rem;
+    }
 }

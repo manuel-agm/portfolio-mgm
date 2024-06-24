@@ -2,6 +2,8 @@
     border-top: 1px solid #bfced8;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
 }
 
 .workBox {
@@ -10,11 +12,10 @@
     flex-wrap: nowrap;
     justify-content:space-between;
     align-items: start;
-    align-content: center;
-    margin-left: 28rem;
-    margin-right: 28rem;
-    gap:4rem;
-    
+    align-content: start;
+    gap:8rem;
+    max-width: 60rem;
+    width: 100%;
     
 }
 
@@ -32,7 +33,6 @@
     position: -webkit-sticky;
     position: sticky;
     top: 7rem;
-    
 }
 
 .headerWorkTitle {
@@ -55,7 +55,7 @@
 }
 
 .project {
-    width: 35rem;
+    width: 32rem;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -82,7 +82,7 @@
 }   
 
 .projectImage {
-    width: 35rem;
+    width: 32rem;
     border-radius: 15px;
     transition: transform 0.3s ease-out, filter 0.3s ease-out;
 }
@@ -110,122 +110,116 @@
     text-decoration: none;
 }
 
-@media (max-width: 1746.98px) {
-    .headerWork {
-        width: 12rem;
-        
-    }
-
-    .projectImage {
-        width: 30rem;
-        
-    }
-
-    .project {
-        width: 30rem;
-    }
-
+@media (max-width:1199.98px) {
     .workBox {
-        
-        margin-left: 20rem;
-        margin-right: 20rem;
-    }
-}
-
-@media (max-width: 1439.98px) {
-    .workBox {
-        
-        margin-left: 16rem;
-        margin-right: 16rem;
-    }
-
-    .projectImage {
-        width: 24rem;
-    }
-
-    .project {
-        width: 24rem;
-    }
-
-    .projectDescription {
-        font-size: 1.2rem;
-        align-self: start;
-    }
-    
-    .projectTitle {
-        font-size: 1.4rem;
-    }
-
-    
-}
-
-@media (max-width: 1199.98px) {
-    .workBox  {
-        flex-direction: column;
-        justify-content:center;
-        gap: 4rem;
         margin-left: 8rem;
         margin-right: 8rem;
-        align-items: center;
+    }
+
+    .headerWorkTitle {
+        font-size: 35px;
+    }
+
+    .projectImage {
+        width: 26rem;
+    }
+
+    .project {
+        width: 26rem;
     }
 
     .headerWork {
-        justify-content:center;
-        
-        top: 0rem;
-        align-self: center;
-        position: static;
+        width: 12rem;
     }
-
-    .headerWorkTitle {
-        align-self: center;
-    }
-
-    
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
+    .workBox {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        gap: 4rem;
+    }
+
+    .projectImage {
+        width: 21rem;
+    }
+
     .project {
-        align-self: center;
-    }
-    .projectImage {
-        width: 24rem;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .headerWorkTitle {
-        font-size: 2.4rem;
-    }
-
-    .projectImage {
-        width: 17rem;
+        width: 21rem;
     }
 
     .projectTitle {
-        font-size: 1.2rem;
+        font-size: 21px;
     }
-
     .projectDescription {
-        font-size: 1rem;
-    }
-
-    .workBox {
-        margin-left: 3rem;
-        margin-right: 3rem;
-        gap: 3rem;
-    }
-
-    .project {
-        width: 17rem;
+        font-size: 18px;
     }
 
     .projects {
         gap: 3rem;
     }
 
+    .arrow {
+        width:1.2rem;
+    }
+
+    .headerWork {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .project {
+        width: 14rem;
+    }
+    .projectImage {
+        width: 14rem;
+    }
+    .headerWorkTitle {
+        font-size: 28px;
+    }
+
+    .projectDescription {
+        font-size: 16px;
+    }
+
+    .projectTitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .workBox {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
     .work {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .headerWork {
+        justify-content: center;
+        position: static
+    }
+    .headerWorkTitle {
+        align-self: center;
+    }
+
+    .projectDescription {
+        text-align: center;
+    }
+
+    .projectTitle {
+        text-align: center;
+        align-self: center;
+    }
+
+    .arrow {
+        width:1rem;
     }
 }
